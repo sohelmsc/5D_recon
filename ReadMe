@@ -1,0 +1,32 @@
+
+Data reconstruction using projection onto convex set (POCS) or fast iterative thresholding algorithm (FISTA)
+
+Input: Binary undersampled data 
+ 
+Output: Binary data after reconstruction 
+
+Synopsis:
+         This program takes the file name of binary file of a patch of seismic data. 
+         Subsequently, it executes the reconstruction program based on user's preference (e.g., FISTA, and POCS) and recosntruct data. 
+         This program writes the binary file in the storage after reconstruction. 
+         It can also digest several input binary data patches and reconstruct one after another. 
+
+
+Required files:
+===============
+1. FFTW 3.3.0
+2. g++
+
+
+To compile and run:
+===================
+
+1. cd /.../pocs5D/Debug
+2. make clean
+3. make all
+4. ./pocs5D
+
+Regards
+Mafijul Bhuiyan
+mbhuiyan@ualberta.ca
+university of alberta
